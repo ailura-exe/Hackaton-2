@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Crear una agenda telefónica con una capacidad máxima de 20 contactos
-        AgendaTelefonica agenda = new AgendaTelefonica(3);
+        AgendaTelefonica agenda = new AgendaTelefonica(10);
         while (true) {
             System.out.println("*** Menú de Agenda Telefónica ***");
             System.out.println("1. Añadir contacto");
